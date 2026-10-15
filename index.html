@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Ruslan+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Рыбалка</title>
+</head>
+<body>
+    <header>
+        <h1>Привет! Это наш сайт про рыбов и факты о них</h1>
+        <p>Нажми на кнопку, посмотрим кого поймаешь сегодня! </p>
+    </header>
+    <main>
+        <section class="scene">
+            <img src="./images/bg_fish_1.png" alt="" class="bg-fish bg-fish-1">
+            <img src="./images/bg_fish_2.png" alt="" class="bg-fish bg-fish-2">
+            <img src="./images/bg_fish_3.png" alt="" class="bg-fish bg-fish-3">
+            <img src="./images/bg_fish_4.png" alt="" class="bg-fish bg-fish-4">
+            <img src="./images/bg_fish_5.png" alt="" class="bg-fish bg-fish-5">
+
+            <img src="./images/fisherman.png" alt="Рыбак в лодке" class="fisherman-img">
+            <img src="./images/rod.png" alt="Удочка" class="rod-img">
+            <img src="./images/fishing_line.png" alt="Леска" class="line-img">
+            <div class="fish" id="fish">🐟</div>
+        </section>
+        <section class="info">
+            <h2 id="fish-name">Кто же это</h2>
+            <p id="fact-text">Нажми "поймать рыбу" чтобы узнать факт!</p>
+            <button id="catch-btn" type="button">Поймать рыбу</button>
+            <button id="theme-btn" type="button">Сменить тему</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Набатрачено с душой by Комарова Александра & Дмитрий Патык</p>
+    </footer>
+    <script src="./app.js" defer></script>
+</body>
+</html>
