@@ -1,2 +1,2 @@
 # fishing-site
-The first hometask for veb-programming from team: Александра Комарова, Патык Дмитрий из 24КНТ6
+The first homework assignment in web programming from the team: Александра Комарова и Патык Дмитрий из 24КНТ6
